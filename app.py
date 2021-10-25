@@ -16,5 +16,9 @@ def index():
 def forms():
     return render_template('forms.html')
 
+@app.route('/newregister')
+def newregister():
+    return render_template('newregister.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
