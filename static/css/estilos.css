@@ -1,6 +1,7 @@
 :root{
   --circuloblue:rgba(5, 86, 124);
   --circulobluetransp:rgba(5, 86, 124, 0.432);
+  --circulobluetransp2:rgba(5, 86, 124, 0.822);
   --circulowhite:white;
   }
 
@@ -46,6 +47,7 @@ body {
 }
 .bg-circulo-transp{
   background-color: var(--circulobluetransp);
+  border-radius: 5%;
 }
 
 .textlogin{
@@ -54,7 +56,8 @@ body {
   color: white;
 }
 
-.containerlogin{
+.containericons{
+  background-color: var(--circulobluetransp2);
   border-radius: 5%;
 }
 
