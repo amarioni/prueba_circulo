@@ -1,7 +1,7 @@
 :root{
   --circuloblue:rgba(5, 86, 124);
-  --circulobluetransp:rgba(5, 86, 124, 0.432);
-  --circulobluetransp2:rgba(5, 86, 124, 0.822);
+  --circulobluetransp:rgba(5, 86, 124, 0.329);
+  --circulobluetransp2:rgba(5, 86, 124, 0.747);
   --circulowhite:white;
   }
 
@@ -49,6 +49,10 @@ body {
   background-color: var(--circulobluetransp);
   border-radius: 5%;
 }
+.bg-circulo-transp2{
+  background-color: var(--circulobluetransp2);
+  border-radius: 5%;
+}
 
 .textlogin{
   text-shadow: 1px 1px black;
@@ -68,4 +72,8 @@ body {
 
 .nav-link{
   font-size: 20px;
+}
+
+.formpatient{
+  font-family: "Montserrat";
 }
