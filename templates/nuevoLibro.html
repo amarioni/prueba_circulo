@@ -1,0 +1,30 @@
+{% extends "template.html" %}
+    {% block contenido %}
+    <div class="d-grid gap-2 col-4 mx-auto cont">
+        <h3>AGREGA UN NUEVO LIBRO</h3>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <form action="#" method="post">
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <label for="nombre">Titulo:</label>
+                <input type="text" maxlength="100" name="nombre" placeholder="Nombre del Libro">
+            </div>
+            <br>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <label for="autor">Autor:</label>
+                <input maxlength="100" name="autor" placeholder="Autor del Libro">
+            </div>
+            <br>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <label for="genero">Genero:</label>
+                <input maxlength="100" name="genero" placeholder="Genero del Libro">
+            </div>
+            <br>
+            <div class="d-grid gap-2 col-2 mx-auto">
+                <button type="submit" class="btn btn-success"><i class="bi bi-save"></i>GUARDAR</button>
+            </div>
+        </form>
+    </div>
+    {% endblock %}
