@@ -1,28 +1,25 @@
 {% extends "template.html" %}
     {% block contenido %}
-    <div class="container formpatient">
-        <form class="bg-circulo-transp2 p-5 needs-validation" novalidate>
+    <div class="container">
+        <form class="bg-circulo-transp2 p-5 m-4 needs-validation formpatient" novalidate>
             <div class="form-row">
               <div class="col-md-4 mb-3">
-                <label for="validationTooltip01">First name</label>
-                <input type="text" class="form-control" id="validationTooltip01" placeholder="First name"  required>
+                <label for="validationTooltip01">Nombre</label>
+                <input type="text" class="form-control" id="validationTooltip01" placeholder="Nombre del paciente"  required>
                 <div class="valid-tooltip">
-                  Looks good!
+                  Correcto!
                 </div>
               </div>
               <div class="col-md-4 mb-3">
-                <label for="validationTooltip02">Last name</label>
-                <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name"  required>
+                <label for="validationTooltip02">DNI</label>
+                <input type="text" class="form-control" id="validationTooltip02" placeholder="DNI del paciente"  required>
                 <div class="valid-tooltip">
-                  Looks good!
+                  Correcto!
                 </div>
               </div>
               <div class="col-md-4 mb-3">
                 <label for="validationTooltipUsername">Username</label>
                 <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-                  </div>
                   <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
                   <div class="invalid-tooltip">
                     Please choose a unique and valid username.

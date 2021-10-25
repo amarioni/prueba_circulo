@@ -47,11 +47,12 @@ body {
 }
 .bg-circulo-transp{
   background-color: var(--circulobluetransp);
-  border-radius: 5%;
+  border-radius: 15px;
+  border-style: groove;
 }
 .bg-circulo-transp2{
   background-color: var(--circulobluetransp2);
-  border-radius: 5%;
+  border-radius: 15px;
 }
 
 .textlogin{
@@ -62,7 +63,8 @@ body {
 
 .containericons{
   background-color: var(--circuloblue);
-  border-radius: 5%;
+  border-radius: 15px;
+  border-style: groove;
 }
 
 .btnlogin{
@@ -75,5 +77,6 @@ body {
 }
 
 .formpatient{
-  font-family: "Montserrat";
+  font-family: "Secular One";
+  border-style: groove;
 }
