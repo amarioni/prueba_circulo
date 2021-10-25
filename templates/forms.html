@@ -1,16 +1,7 @@
 {% extends "template.html" %}
     {% block contenido %}
     <div class="container-md d-md-flex">
-        <div class="container-md col-sm-3 containericons text-center">
-            <br>
-            <div>
-                <img class="img-fluid" src="/static/images/iconomed.png" alt="">
-            </div>
-            <br>
-            <div>
-                <button type="button" class="btn btnlogin btn-light">Consulta de Prestadores</button>
-            </div>
-        </div>
+   
         
         <div class="container-md col-sm-5">
 
@@ -30,13 +21,11 @@
             <br>
             <div class="form-check textlogin ml-1">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                  Recordar mi cuenta
-                </label>
+                <label class="form-check-label" for="flexCheckDefault">Recordar mi cuenta</label>
             </div>
             <br>
             <div>
-                <button type="button" class="btn btnlogin btn-light">Ingresar</button>
+                <a href="{{url_for('forms')}}"></a><button type="button" class="btn btnlogin btn-light">Ingresar</button>
             </div>
         </div>
     </div>
