@@ -2,10 +2,6 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
-
-
-# landing page that will display all the books in our database
-# This function will operate on the Read operation.
 @app.route('/')
 @app.route('/template')
 @app.route('/template/index')
