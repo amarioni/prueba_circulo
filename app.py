@@ -8,9 +8,13 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/forms')
-def forms():
-    return render_template('forms.html')
+@app.route('/formpatient')
+def formpatient():
+    return render_template('formpatient.html')
+
+@app.route('/formprofessional')
+def formprofessional():
+    return render_template('formprofessional.html')
 
 @app.route('/newregister')
 def newregister():
