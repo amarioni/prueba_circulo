@@ -37,5 +37,19 @@ def manager():
 def professional():
     return render_template('professional.html')
 
+    register_error_handlers(app)
+
+    return app
+
+def register_error_handlers(app):
+
+    @app.errorhandler(500)
+    def base_error_handler(e):
+        return render_template('500.html'), 500
+
+    @app.errorhandler(404)
+    def error_404_handler(e):
+        return render_template('404.html'), 404
+
 if __name__ == '__main__':
     app.run(debug=True)
