@@ -16,6 +16,15 @@ def formpatient():
 def formprofessional():
     return render_template('formprofessional.html')
 
+@app.route('/formfile')
+def formfile():
+    return render_template('formfile.html')
+
+@app.route('/formpractices')
+def formpractices():
+    return render_template('formpractices.html')
+
+
 @app.route('/newregister')
 def newregister():
     return render_template('newregister.html')
